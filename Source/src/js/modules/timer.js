@@ -1,5 +1,3 @@
-console.log(1);
-
 const timer = (id, deadline) => {
     const getTimeRemaining = (endTime) => {
         const t = Date.parse(endTime) - Date.parse(new Date()),
